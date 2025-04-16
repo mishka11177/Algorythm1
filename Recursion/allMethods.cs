@@ -99,5 +99,31 @@ namespace Recursion
             }
             return isPal(toChars(str));
         }
+
+
+        // binarySearch algorythm
+        public static int BinarySearch(int[] array, int low, int high, int x)
+        {
+            if (high >= low)
+            {
+                int mid = low + (int)Math.Floor((high - low) / 2.0);
+                if (array[mid] == x)
+                {
+                    return mid;
+                }
+                else if (array[mid] < x)
+                {
+                    return BinarySearch(array, mid + 1, high, x);
+                }
+                else
+                {
+                    return BinarySearch(array, low, mid-1, x);
+                }
+            }
+            else
+            {
+                return -1;
+            }
+        }
     }
 }

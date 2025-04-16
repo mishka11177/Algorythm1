@@ -19,6 +19,9 @@ namespace Recursion
 
             string mystr = "abccbaa";
             Console.WriteLine(Methods.Pallindrome(mystr));
+
+            var integers = new int[] {10, 14, 15, 19, 29, 100};
+            Console.WriteLine(Methods.BinarySearch(integers, 0, integers.Length-1, 29));
         }
     }
 }

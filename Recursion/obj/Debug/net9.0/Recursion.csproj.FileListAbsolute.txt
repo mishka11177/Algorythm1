@@ -12,3 +12,4 @@ C:\Users\dzind\Algorythm1\Recursion\obj\Debug\net9.0\refint\Recursion.dll
 C:\Users\dzind\Algorythm1\Recursion\obj\Debug\net9.0\Recursion.pdb
 C:\Users\dzind\Algorythm1\Recursion\obj\Debug\net9.0\Recursion.genruntimeconfig.cache
 C:\Users\dzind\Algorythm1\Recursion\obj\Debug\net9.0\ref\Recursion.dll
+C:\Users\dzind\Algorythm1\Recursion\obj\Debug\net9.0\Recursion.sourcelink.json
